@@ -18,6 +18,8 @@
 		450EECD617A9B03A00957F62 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EECD517A9B03A00957F62 /* Default-568h@2x.png */; };
 		450EECD917A9B03A00957F62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECD817A9B03A00957F62 /* ViewController.m */; };
 		450EECE517A9B05E00957F62 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECE417A9B05E00957F62 /* HTTPClient.m */; };
+		5A15DCE518DA7CF5004BCBBD /* Album+TableRespresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15DCE418DA7CF5004BCBBD /* Album+TableRespresentation.m */; };
+		5A15DCE818DA8753004BCBBD /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A15DCE718DA8753004BCBBD /* HorizontalScroller.m */; };
 		5ABB78C018DA02B500C8FE93 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB78BF18DA02B500C8FE93 /* Album.m */; };
 		5ABB78C318DA036D00C8FE93 /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB78C218DA036D00C8FE93 /* AlbumView.m */; };
 		5ABB78CA18DA06B800C8FE93 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB78C918DA06B800C8FE93 /* LibraryAPI.m */; };
@@ -42,6 +44,10 @@
 		450EECD817A9B03A00957F62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		450EECE317A9B05E00957F62 /* HTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPClient.h; sourceTree = "<group>"; };
 		450EECE417A9B05E00957F62 /* HTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPClient.m; sourceTree = "<group>"; };
+		5A15DCE318DA7CF5004BCBBD /* Album+TableRespresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Album+TableRespresentation.h"; sourceTree = "<group>"; };
+		5A15DCE418DA7CF5004BCBBD /* Album+TableRespresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Album+TableRespresentation.m"; sourceTree = "<group>"; };
+		5A15DCE618DA8753004BCBBD /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalScroller.h; sourceTree = "<group>"; };
+		5A15DCE718DA8753004BCBBD /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalScroller.m; sourceTree = "<group>"; };
 		5ABB78BE18DA02B500C8FE93 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		5ABB78BF18DA02B500C8FE93 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		5ABB78C118DA036D00C8FE93 /* AlbumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumView.h; sourceTree = "<group>"; };
@@ -148,6 +154,8 @@
 			children = (
 				5ABB78C118DA036D00C8FE93 /* AlbumView.h */,
 				5ABB78C218DA036D00C8FE93 /* AlbumView.m */,
+				5A15DCE618DA8753004BCBBD /* HorizontalScroller.h */,
+				5A15DCE718DA8753004BCBBD /* HorizontalScroller.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -157,6 +165,8 @@
 			children = (
 				5ABB78BE18DA02B500C8FE93 /* Album.h */,
 				5ABB78BF18DA02B500C8FE93 /* Album.m */,
+				5A15DCE318DA7CF5004BCBBD /* Album+TableRespresentation.h */,
+				5A15DCE418DA7CF5004BCBBD /* Album+TableRespresentation.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -227,9 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				450EECCC17A9B03A00957F62 /* main.m in Sources */,
+				5A15DCE518DA7CF5004BCBBD /* Album+TableRespresentation.m in Sources */,
 				450EECD017A9B03A00957F62 /* AppDelegate.m in Sources */,
 				5ABB78C318DA036D00C8FE93 /* AlbumView.m in Sources */,
 				5ABB78CD18DA085F00C8FE93 /* PersistencyManager.m in Sources */,
+				5A15DCE818DA8753004BCBBD /* HorizontalScroller.m in Sources */,
 				5ABB78CA18DA06B800C8FE93 /* LibraryAPI.m in Sources */,
 				450EECD917A9B03A00957F62 /* ViewController.m in Sources */,
 				5ABB78C018DA02B500C8FE93 /* Album.m in Sources */,
